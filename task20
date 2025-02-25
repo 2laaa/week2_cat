@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>any</title>
+    <style>
+                .main-list {
+        width: 400px;
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        
+        }
+
+        .category {
+        background-color: #f2f2f2;
+        padding: 35px;
+        margin-bottom: 15px;
+        font-weight: bold;
+        }
+
+        .sub-list {
+        background-color: white;
+        padding: 5px;
+        margin-top: 10px;
+
+        }
+
+
+        .sub-list.decimal {
+        list-style-type: decimal; 
+               
+        }
+
+
+        .sub-list.roman {
+        list-style-type: upper-roman;
+        }
+
+
+        .sub-list.circle {
+            list-style:inside;
+        list-style-type: circle;
+        
+
+        }
+
+
+        .sub-list li {
+        padding: 10px;
+        margin-bottom: 5px;
+        
+        }
+    
+    </style>
+</head>
+<body>
