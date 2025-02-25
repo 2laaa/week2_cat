@@ -1,0 +1,84 @@
+/* اكتب في تعليق كل Selector ما الذي يعبر عنه */
+/* Any element with the class "title" */
+.title {
+}
+
+/* The element with the ID "nav" */
+#nav {
+}
+
+/* All <div> elements on the page */
+div {
+}
+
+/* All <h2> elements on the page */
+h2 {
+}
+/*//////////////////////////////////////////////////////////////////*/
+<!-- external -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- internal -->
+<style>
+p {
+  color: red;
+}
+</style>
+
+<!-- inline -->
+<p style="color: blue;">This Is Our Paragraph</p>
+/*//////////////////////////////////////////////////////////////////*/
+<!-- Write Path -->
+<link rel="stylesheet" href="{assets/css/master.css}" />
+/*//////////////////////////////////////////////////////////////////*/
+<!-- Write Path -->
+<link rel="stylesheet" href="{ ../source/css/main.css }" />
+/*//////////////////////////////////////////////////////////////////*/
+/* valid */
+._user-name {
+}
+
+/* valid */
+.-user-name {
+}
+
+/* not valid */
+.1user-name {
+}
+
+/* not valid */
+.@user-name {
+}
+
+/* not valid */
+.user@name {
+}
+
+/* valid */
+._user10name {
+}
+
+/* valid */
+.u {
+}
+/*//////////////////////////////////////////////////////////////////*/
+/* bad */
+.USERNAME {
+}
+
+/* bad */
+.UserName {
+}
+
+/* good */
+.user-name {
+}
+
+/* bad */
+.userName {
+}
+
+/* good */
+.usernameprofile {
+}
+/*//////////////////////////////////////////////////////////////////*/
