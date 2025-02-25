@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>any</title>
+    <style>
+                div{
+            background-color: #EEE;
+        }
+        
+        .words{
+            background-color: darkred;
+            color: white;
+            max-width: 400px;
+            max-height: 100px;
+            width: fit-content;
+            padding: 20px;
+            margin: 20px;
+            overflow-y: hidden;
+        }
+
+
+        #shadow{
+           font-size: 50px;
+            color: black;
+            text-shadow: 2px 1px 0 red, 
+             3px 2px 0 skyblue, 
+             4px 3px 0 blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="words">title one </div>
+    <div class="words">title two with more words</div>
+    <div class="words">title three with many many many words</div>
+    <div class="words">title three with many many many words title three with many many many wordstitle three with many many many words
+        title three with many many many words title three with many many many wordstitle three with many many many words
+      title three with many many many words title three with many many many words title three with many many many words
+      title three with many many many words title three with many many many words title three with many many many words
+      title three with many many many words title three with many many many words title three with many many many words
+      title three with many many many words title three with many many many words title three with many many many words
+    </div>
+
+</body>
+</html>
