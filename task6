@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>any</title>
+    <style>
+                .shape1{
+            display: inline-block;
+            border: 5px;
+            padding: 50px;
+            border-color: red;
+            border-style: solid;
+            outline: 10px solid black;
+            margin: 50px;
+        }
+        .shape2{
+            display: inline-block;
+            border: 5px;
+            padding: 50px;
+            border-color: blue green;
+            border-style: solid;
+            outline: 10px solid black;
+        }
+        .shape3{
+            display: inline-block;
+            border: 5px;
+            padding: 50px;
+            border-color: red green blue yellow;
+            border-style: dashed;
+            outline: 10px solid black;
+            margin: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <span class="shape1">shape1</span>
+    <span class="shape2">shape1</span>
+    <span class="shape3">shape1</span>
+
+</body>
+</html>
