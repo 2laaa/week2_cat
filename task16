@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>any</title>
+    <style>
+                div{
+            background-color: #EEE;
+        }
+        .root{
+            font-size: 20px;
+        }
+        ._text1 {
+            font-size: 2.5rem; 
+        }
+
+        ._text2 {
+            font-size: 2rem; 
+        }
+
+        ._text3 {
+            font-size: 1.5rem; 
+        }
+    
+    </style>
+</head>
+<body>
+
+    <div class="root">
+        <p class="_text1">Elzero Web School</p>
+        <p class="_text2">Elzero Web School</p>
+        <p class="_text3">Elzero Web School</p>
+      </div>
+
+</body>
+</html>
