@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>any</title>
+    <style>
+                .all {
+      margin: 20px auto;
+      width: 300px;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 20px;
+      background-image:rgb(190, 190, 190) ;/* Get The Background From Image */
+      color: black;
+       }
+       .normal{
+        background-color:rgba(190, 190, 190, 0.9) ;
+       }
+       .one{
+        background-color:rgba(179, 179, 179, 0.1) ;
+       }
+       .two{
+        opacity:0.1 ;
+       }
+    
+    </style>
+</head>
+<body>
+
+    <div class="all normal">Normal</div>
+    <div class="all one">One</div>
+    <div class="all two">Two</div>
+
+</body>
+</html>
