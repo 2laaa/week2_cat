@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>any</title>
+    <style>
+                .container{
+            border: 2px solid;
+            border-color: red #00aaff;
+            text-align: center;
+            width: 400px;
+            height: 80px;
+            word-spacing: 3px;
+            margin: auto;
+            padding: 20px;
+        }
+        span{
+            background-color: #00aaff;
+            padding:10px  20px ;
+            position: relative;
+        }
+        .top-left{
+            bottom: 100px;
+            right: 140px;
+        }
+        .bottom-left{
+            top: 20px;
+            right: 190px;
+        }
+        .top-right{
+            bottom: 100px;
+            left: 190px;
+        }
+        .bottom-right{
+            top: 20px;
+            left: 140px;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <br>
+    <div class="container">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, sed. Ea ipsum
+        similique quasi rem, fugiat voluptatibus reiciendis nam debitis earum quo veniam
+        laudantium mollitia atque! Laborum ea nam doloribus.
+        <span class="top-left">1</span>
+        <span class="bottom-left">2</span>
+        <span class="top-right">3</span>
+        <span class="bottom-right">4</span>
+      </div>
+
+</body>
+</html>
