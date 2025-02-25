@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>any</title>
+    <style>
+
+.rating-table {
+    width: 700px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+            }
+
+      .rating-table th,
+      .rating-table td {
+          border: 1px solid #ccc;
+          padding: 10px;
+      }
+
+      .rating-table thead {
+          background-color: #333;
+          color: white;
+      }
+
+
+      .rating-table img {
+          width: 50px;
+          height: 50px;
+          border-radius: 5px;
+          display: block;
+      }
+
+      .view {
+          background-color: #00A5EC;
+          color: white;
+          border: none;
+          padding: 5px 10px;
+          cursor: pointer;
+      }
+
+      .delete {
+          background-color: #E91E63;
+          color: white;
+          border: none;
+          padding: 5px 10px;
+          cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+
+    <table class="rating-table">
+        <thead>
+            <tr>
+                <th>Avatar</th>
+                <th>Group</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Control</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://play-lh.googleusercontent.com/V_kmO4jSeSO4OI4T52MNktfbGn_MF10HkW39SMUJs6W6M9GnlVdQG9rIgc3bZ_KwPnU" alt="Avatar"></td>
+                <td>Ninja</td>
+                <td>Ahmed Mohamed</td>
+                <td>120</td>
+                <td>
+                    <button class="view">View</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="https://worldofprintables.com/wp-content/uploads/2023/06/Boy-Anime-Wallpapers.jpg" alt="Avatar"></td>
+                <td>Shades</td>
+                <td>Shady Nabil</td>
+                <td>180</td>
+                <td>
+                    <button class="view">View</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="https://play-lh.googleusercontent.com/V_kmO4jSeSO4OI4T52MNktfbGn_MF10HkW39SMUJs6W6M9GnlVdQG9rIgc3bZ_KwPnU" alt="Avatar"></td>
+                <td>Shades</td>
+                <td>Eman Mohamed</td>
+                <td>160</td>
+                <td>
+                    <button class="view">View</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="https://worldofprintables.com/wp-content/uploads/2023/06/Boy-Anime-Wallpapers.jpg" alt="Avatar"></td>
+                <td>Valhala</td>
+                <td>Mohamed Ibrahim</td>
+                <td>190</td>
+                <td>
+                    <button class="view">View</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="https://play-lh.googleusercontent.com/V_kmO4jSeSO4OI4T52MNktfbGn_MF10HkW39SMUJs6W6M9GnlVdQG9rIgc3bZ_KwPnU" alt="Avatar"></td>
+                <td>Valhala</td>
+                <td>Noor Atef</td>
+                <td>110</td>
+                <td>
+                    <button class="view">View</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="https://worldofprintables.com/wp-content/uploads/2023/06/Boy-Anime-Wallpapers.jpg" alt="Avatar"></td>
+                <td>Union</td>
+                <td>Mahmoud Adel</td>
+                <td>90</td>
+                <td>
+                    <button class="view">View</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
