@@ -1,0 +1,63 @@
+.container{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+    padding:40px;
+}
+.Facebook{
+    background-color: #245091;
+    color: white;
+    padding: 10px 45px;
+    margin-right: 10px;
+
+}
+.Twitter{
+    background-color: #1a98ed;
+    color: white;
+    padding: 10px 40px;
+    margin-left: 5px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    
+}
+p{
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    margin-bottom: 10 px;
+    margin-top: 30px;
+}
+.user_pass{
+    width: 50%;
+    padding: 7px;
+    margin: 10px;
+}
+button{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color:#245091;
+    color:white;
+    border: none;
+}
+._label {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 5px ;
+}
+a{
+    text-decoration: none; 
+    color: #1a98ed
+}
+._label a {
+color: black;
+}
